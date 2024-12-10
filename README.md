@@ -1,9 +1,9 @@
 # PEGASUS TPU Trainer
-Model Card : [pegasus-indonesian-base_finetune](https://huggingface.co/thonyyy/pegasus-indonesian-base_finetune)
+Model Card: [pegasus-indonesian-base_finetune](https://huggingface.co/thonyyy/pegasus-indonesian-base_finetune)
 
-Report : [Draft Final Buku Tugas Akhir - Anthony 10119038 (1).pdf](https://github.com/user-attachments/files/18071465/Draft.Final.Buku.Tugas.Akhir.-.Anthony.10119038.1.pdf)
+Report (in Bahasa Indonesia): [Indonesian News Absractive Summarization using PEGASUS](https://github.com/user-attachments/files/18071465/Draft.Final.Buku.Tugas.Akhir.-.Anthony.10119038.1.pdf)
 
-Reference Paper : [“PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization”](https://arxiv.org/abs/1912.08777)
+Reference Paper: [“PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization”](https://arxiv.org/abs/1912.08777)
 
 In this project, I implemented Transformer encoder-decoder model (PEGASUS) pretraining and finetuning using Tensorflow + TFRecords on TPU. Weights for final model can be used to make abstractive summarization of Indonesian News. 
 
