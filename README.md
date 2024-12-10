@@ -10,12 +10,13 @@ In this project, I implemented Transformer encoder-decoder model (PEGASUS) pretr
 ## Sample summarization
 ![image](https://github.com/user-attachments/assets/7c603a58-d5a7-4539-a0de-dff0574a66f9)
 
-Pretrain dataset: 
+## Datasets: 
+### Pretraining: 
 1. [kaggle id news 2017](https://www.kaggle.com/datasets/aashari/indonesian-news-articles-published-at-2017)
 2. [CC_news_id](https://github.com/Wikidepia/indonesian_datasets/tree/master/dump/cc-news)
 3. [OSCAR_2201](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/viewer/id/train)
 
-Finetune dataset: 
+### Finetuning: 
 1. [Indosum](https://paperswithcode.com/dataset/indosum)
 2. [Liputan6](https://paperswithcode.com/dataset/liputan6)
 3. [XLSum](https://huggingface.co/datasets/csebuetnlp/xlsum)
