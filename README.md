@@ -1,16 +1,19 @@
 # PEGASUS TPU Trainer
-Model card : [pegasus-indonesian-base_finetune](https://huggingface.co/thonyyy/pegasus-indonesian-base_finetune)
+Model Card : [pegasus-indonesian-base_finetune](https://huggingface.co/thonyyy/pegasus-indonesian-base_finetune)
+Report : [Draft Final Buku Tugas Akhir - Anthony 10119038 (1).pdf](https://github.com/user-attachments/files/18071465/Draft.Final.Buku.Tugas.Akhir.-.Anthony.10119038.1.pdf)
+Reference Paper : [“PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization”](https://arxiv.org/abs/1912.08777)
 
-A paper named [“PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization”](https://arxiv.org/abs/1912.08777) appeared in International Conference on Machine Learning 2020 surprised the AI community by the breakthroughs in the abstractive summarization task. PEGASUS is a deep learning model that uses a transformer encoder-decoder architecture, which takes in a sequence of input tokens and generates a sequence of output tokens. This is particularly useful for summarization, where the goal is to take a long piece of text and generate a shorter summary. Made by the Google AI Research team, the model achieved performance close to the state of the art with remarkably less labeled training data, around 1000 data, compared to previous state of the art models that use tens of thousands of labeled training data.
+In this project, I implemented Transformer encoder-decoder model (PEGASUS) pretraining and finetuning using Tensorflow + TFRecords on TPU. Weights for final model can be used to make abstractive summarization of Indonesian News. 
 
-In this project, I implemented Indonesian PEGASUS model to make abstractive summarization of Indonesian News trained using the following dataset:
+## Sample summarization
+![image](https://github.com/user-attachments/assets/5cd1b721-232b-46a1-bf26-5788be91e172)
 
-Pretrain : 
+Pretrain dataset: 
 1. [kaggle id news 2017](https://www.kaggle.com/datasets/aashari/indonesian-news-articles-published-at-2017)
 2. [CC_news_id](https://github.com/Wikidepia/indonesian_datasets/tree/master/dump/cc-news)
 3. [OSCAR_2201](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/viewer/id/train)
 
-Finetune : 
+Finetune dataset: 
 1. [Indosum](https://paperswithcode.com/dataset/indosum)
 2. [Liputan6](https://paperswithcode.com/dataset/liputan6)
 3. [XLSum](https://huggingface.co/datasets/csebuetnlp/xlsum)
