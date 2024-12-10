@@ -25,9 +25,9 @@ Finetune :
 
 ## ⚡️ Getting Started
 ### Clone Repository
-To start working on this project, clone `PEGASUSAnthony` repository.
+To start working on this project, clone `PEGASUS TPU Trainer` repository.
 ```
-git clone https://github.com/nicholaswilven/PEGASUSAnthony.git
+git clone https://github.com/nicholaswilven/pegasus-tpu-trainer.git
 ```
 ## Structure of this Repository
 The structure of this project can be seen in the tree diagram below.
